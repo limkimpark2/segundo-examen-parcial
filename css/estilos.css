@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#encabezado {
+    background-color: rgb(26, 60, 133);
+    height: 50px;
+}
+
+#navegacion {
+    float: left;
+    height: 50px;
+    padding: 15px 10px;
+}
+
+#navegacion > ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navegacion > ul li {
+    display: inline-block;
+}
+
+#navegacion > ul a {
+    padding: 0 10px;
+    color: white;
+    
+}
+#mensaje {
+    float: right;
+    height: 50px;
+    padding: 15px 10px;
+    color: white;
+}
+
+.contenedor {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+#principal {
+    float: left;
+    width: 75%;
+    background-color: darkkhaki;
+}
+#principal_h1 {
+    font-size: 3rem;
+    color: crimson;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-75%, -75%);
+}
+
+#lateral {
+    float: right;
+    width: 25%;
+    background-color: rgb(236, 217, 167);
+    height: 1440px; /* Aqui tamanio de lateral */
+}
+
+#fondo {
+    width: 100%;
+}
+
+#section1,
+#section2 {
+    height: 340px;
+    margin: 40px 20px;
+}
+
+#section1 p,
+#section2 p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#section1 img #section2 img {
+    width: 39%;
+}
+
+#section1 p,
+#section2 img {
+    float: left;
+}
+
+#section2 p,
+#section1 img {
+    float: right;
+}
+
+#lateral {
+    padding: 30px 20px;
+}
+
+.separacion:nth-child(1) {
+    height: 640px;
+}
+
+.separacion:nth-child(2) {
+    height: 440px;
+}
+
+#lateral h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#formulariologin input {
+    width: 100%;
+}
+
+form input {
+    height: 32px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+form button,
+form select {
+    height: 32px;
+}
+
+#formularioconversor input {
+    width: 60%;
+}
+
+#formularioconversor button {
+    width: 40%;
+}
+
+#ingresar,
+#convertir {
+    background-color: rgb(32, 92, 255);
+    color: white;
+    border: 0;
+}
+
+#registrarse {
+    background-color: rgb(87, 84, 84);
+    color: white;
+    border: 0;
+}
+
+/* iconos */
+.bi-controller {
+    color: blue;
+    font-size: 30px;
+}
+.bi-device-ssd {
+    color: blue;
+    font-size: 30px;
+}
+.bi-dpad-fill {
+    color: blue;
+    font-size: 30px;
+}
+.bi-discord {
+    color: blue;
+    font-size: 30px;
+}
+.bi-display {
+    color: blue;
+    font-size: 30px;
+}
+
+#convertir {
+    margin-bottom: 10px;
+}

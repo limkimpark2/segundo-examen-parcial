@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Razen Computers</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="./css/estilos.css" />
+    </head>
+    <body>
+        <header id="encabezado">
+            <div class="contenedor">
+                <nav id="navegacion">
+                    <ul>
+                        <li>
+                            <a href="">Inicio</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://ryzencomputers.server2.trinchera.dev"
+                                >Pagina Oficial</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ryzencomputers.server2.trinchera.dev/index.php/elementor-4534/"
+                                >Sobre Nosotros</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ryzencomputers.server2.trinchera.dev/index.php/elementor-4558/"
+                                >Galeria</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://ryzencomputers.server2.trinchera.dev/index.php/contact-us/"
+                                >Contacto</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <div id="mensaje">
+                    <!-- Aqui el nombre de usuario -->
+                </div>
+            </div>
+        </header>
+
+        <div class="contenedor">
+            <main id="principal">
+                <section>
+                    <h1 id="principal_h1">RYZEN COMPUTERS</h1>
+                    <img id="fondo" src="./imagenes/fondo.jpg" alt="Fondo" />
+                </section>
+
+                <section id="section1">
+                    <p>
+                        Vuelve la guerra de los MHz. O en este caso, de los GHz.
+                        Los Ryzen 7000 tenían como objetivo incrementar en más
+                        de un 15% su rendimiento en aplicaciones monohilo, y una
+                        de las claves para lograrlo —además de esa nueva
+                        fotolitografía y de la arquitectura Zen 4— es aumentar
+                        la frecuencia de reloj , que en los ambiciosos Ryzen 9
+                        7950X puede llegar a los 5,7 GHz. Una absoluta locura
+                        que, eso sí, hace que el precio de este procesador sea
+                        elevado. Cuidado, porque procesadores más modestos
+                        también irán a toda pastilla: el "modesto" Ryzen 5 7600X
+                        llegará por ejemplo a los 5,3 GHz.
+                    </p>
+
+                    <img src="./imagenes/imagen1.jpg" alt="Imagen 1" />
+                </section>
+
+                <section id="section2">
+                    <img src="./imagenes/imagen2.jpg" alt="Imagen 2" />
+
+                    <p>
+                        Se pondrá a la venta a 699 dólares y si deseas buscar
+                        uno de menor precio y ligeramente menos potente, puedes
+                        optar por el Ryzen 9 7900X. Este último solo cuenta con
+                        12 núcleos y 24 hilos, pero viene de base con 4,70 GHz,
+                        el consumo energético estimado es de 170W y el precio es
+                        de 549 dólares. Por supuesto, AMD también cuenta con
+                        procesadores de entrada en esta nueva familia Ryzen:
+                        Ryzen 5 7600X y Ryzen 7 7700X. El primero cuenta con 6
+                        núcleos y 12 hilos, y un precio de 299 dólares; el
+                        segundo, 8 núcleos, 16 hilos, y costará 399 dólares.
+                    </p>
+                </section>
+            </main>
+
+            <aside id="lateral">
+                <div class="separacion">
+                    <h3>Inicio de Sesion</h3>
+
+                    <form id="formulariologin">
+                        <input
+                            type="text"
+                            placeholder="Ingrese nombre de usuario"
+                            id="input_nombre"
+                        />
+
+                        <div>
+                            <button type="button" id="registrarse">
+                                Registrarse
+                            </button>
+                            <button type="button" id="ingresar">
+                                Ingresar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <ul class="separacion">
+                    <li><i class="bi bi-controller"></i>JUEGA</li>
+                    <li><i class="bi bi-device-ssd"></i> ARMA</li>
+                    <li><i class="bi bi-dpad-fill"></i>CONTROLA</li>
+                    <li><i class="bi bi-discord"></i>TRANSMITE</li>
+                    <li><i class="bi bi-display"></i>TRABAJA</li>
+                </ul>
+
+                <div class="separacion">
+                    <h3>Conversor de moneda</h3>
+
+                    <form id="formularioconversor">
+                        <input
+                            type="number"
+                            placeholder="Bolivianos a convertir"
+                            id="input_bolivianos"
+                        />
+                        <select id="select_mc">
+                            <option value="USD" selected>Dolares</option>
+                            <option value="EU">Euro</option>
+                        </select>
+
+                        <div>
+                            <button type="button" id="convertir">
+                                Convertir
+                            </button>
+                        </div>
+
+                        <input
+                            id="input_mc"
+                            type="number"
+                            placeholder="Moneda a convertida"
+                            readonly
+                            disabled
+                        />
+                    </form>
+                </div>
+            </aside>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
