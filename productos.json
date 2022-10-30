@@ -1,0 +1,32 @@
+{
+ "productos": [
+    {
+        "nombre": "Producto #1",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 325.5,
+        "categoria": "Categoria #1",
+        "imagen": "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg"
+    },
+    {
+        "nombre": "Producto #2",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 325.5,
+        "categoria": "Categoria #2",
+        "imagen": "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg"
+    },
+    {
+        "nombre": "Producto #3",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 325.5,
+        "categoria": "Categoria #3",
+        "imagen": "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg"
+    },
+    {
+        "nombre": "Producto #4",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 325.5,
+        "categoria": "Categoria #4",
+        "imagen": "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg"
+    }
+ ]   
+}

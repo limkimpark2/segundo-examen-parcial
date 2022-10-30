@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Realizar Pagos</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <style>
+            label {
+                display: block;
+                width: 100%;
+                padding: 8px;
+                background-color: rgb(228, 228, 228);
+            }
+
+            .ccv {
+                border: 1px solid gray;
+                border-radius: 5px;
+                width: 200px;
+                font-size: 20px;
+                padding: 8px 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Razen Computers</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                            >
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="realizar-pagos.html"
+                                >Ir a Comprar</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-9">
+                    <ul class="list-group">
+                        <h4 class="mb-4">Tus Metodos de Pago</h4>
+
+                        <li class="list-group-item">
+                            <div>
+                                <label for="metodo1">
+                                    <input
+                                        type="radio"
+                                        id="metodo1"
+                                        name="metodo-pago"
+                                    />
+
+                                    <img
+                                        style="
+                                            width: 70px;
+                                            border: 1px solid rgb(170, 170, 170);
+                                            border-radius: 4px;
+                                        "
+                                        class="p-2 mx-4"
+                                        src="imagenes/120px-Visa_Inc._logo.svg.png"
+                                        alt="Visa Logo"
+                                    />
+
+                                    VISA-1793
+                                </label>
+
+                                <div id="oculto1">
+                                    <p>
+                                        Ingresa la informacion a continuacion
+                                        para confirmar tu pago.
+                                    </p>
+
+                                    <input
+                                        type="text"
+                                        placeholder="CCV*"
+                                        class="ccv"
+                                    />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div>
+                                <label for="metodo2">
+                                    <input
+                                        type="radio"
+                                        id="metodo2"
+                                        name="metodo-pago"
+                                    />
+
+                                    <img
+                                        style="
+                                            width: 70px;
+                                            border: 1px solid rgb(170, 170, 170);
+                                            border-radius: 4px;
+                                        "
+                                        class="p-2 mx-4"
+                                        src="imagenes/120px-Visa_Inc._logo.svg.png"
+                                        alt="Visa Logo"
+                                    />
+                                </label>
+
+                                <div id="oculto2">
+                                    <p>
+                                        Ingresa la informacion a continuacion
+                                        para confirmar tu pago.
+                                    </p>
+
+                                    <input
+                                        type="text"
+                                        placeholder="CCV*"
+                                        class="ccv"
+                                    />
+                                </div>
+
+                                VISA-2054
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="list-group">
+                        <h4 class="mb-4">Otros Metodos de Pago</h4>
+
+                        <li class="list-group-item">
+                            <label for="tarjeta">
+                                <input
+                                    type="radio"
+                                    id="tarjeta"
+                                    name="otros-metodos"
+                                />
+
+                                <img
+                                    style="
+                                        width: 70px;
+                                        border: 1px solid rgb(170, 170, 170);
+                                        border-radius: 4px;
+                                    "
+                                    class="p-2 mx-4"
+                                    src="imagenes/tarjeta-credito.png"
+                                    alt="Tarjeta de credito"
+                                />
+
+                                Tarjeta de credito
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            <label for="paypal">
+                                <input
+                                    type="radio"
+                                    id="paypal"
+                                    name="otros-metodos"
+                                />
+
+                                <img
+                                    style="
+                                        width: 70px;
+                                        border: 1px solid rgb(170, 170, 170);
+                                        border-radius: 4px;
+                                    "
+                                    class="p-2 mx-4"
+                                    src="imagenes/paypal.jpg"
+                                    alt="PayPal"
+                                />
+
+                                PayPal
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-xl-3">
+                    <h4>Compra de productos</h4>
+
+                    <ul class="list-group" id="lista"></ul>
+
+                    <div class="d-grid gap-2 my-4">
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modal-gracias"
+                        >
+                            Realizar Pago
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="modal fade"
+                    id="modal-gracias"
+                    tabindex="-1"
+                    aria-labelledby="modal-gracias-label"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1
+                                    class="modal-title fs-5"
+                                    id="modal-gracias-label"
+                                >
+                                    Modal title
+                                </h1>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="modal-body">Gracias por su compra</div>
+                            <div class="modal-footer">
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                    onclick="borrarCarrito()"
+                                >
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/pagos.js"></script>
+    </body>
+</html>
