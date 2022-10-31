@@ -2,48 +2,93 @@ function cargarDatos() {
     var productosJson = [
         {
             id: 1,
-            nombre: "Producto #1",
+            nombre: "Cougar Blazer",
             descripcion:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            precio: 325.5,
+                "Procesador: Ryzen 7 5700x Placa Madre: Asus Rog b550 Memoria Ram: 16gb corsair Tarjeta de Video: gtx 1660 ti Disco m.2 1 tb",
+            precio: 7500,
             categoria: "Categoria #1",
-            imagen: "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg",
+            imagen: "./productos/1.jpg",
         },
         {
             id: 2,
-            nombre: "Producto #2",
+            nombre: "ReDragon Elite",
             descripcion:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            precio: 325.5,
-            categoria: "Categoria #2",
-            imagen: "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg",
+                "Procesador: Ryzen 7 5700x Placa Madre: Aorus Pro b550 Memoria Ram: 16gb corsair Tarjeta de Video: gtx 1660 ti Disco m.2 1 tb",
+            precio: 8500,
+            categoria: "Categoria #1",
+            imagen: "./productos/2.jpg",
         },
         {
             id: 3,
-            nombre: "Producto #3",
+            nombre: "Cougar Conquer 2 Elite",
             descripcion:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            precio: 325.5,
-            categoria: "Categoria #3",
-            imagen: "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg",
+                "Procesador: Ryzen 9 5750x Placa Madre: Aorus Elite x570 Memoria Ram: 64gb corsair Tarjeta de Video: RTX 3080 ti Disco m.2 2 tb",
+            precio: 48000,
+            categoria: "Categoria #1",
+            imagen: "./productos/3.jpg",
         },
         {
             id: 4,
-            nombre: "Producto #4",
+            nombre: "Corsair Atack Pro",
             descripcion:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            precio: 325.5,
-            categoria: "Categoria #4",
-            imagen: "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg",
+                "Procesador: Ryzen 5 5600x Placa Madre: Aorus Elite b550 Memoria Ram: 16gb corsair Tarjeta de Video: gtx 1650 Sup Disco m.2 1 tb",
+            precio: 7200,
+            categoria: "Categoria #1",
+            imagen: "./productos/4.jpg",
         },
         {
             id: 5,
-            nombre: "Producto #5",
+            nombre: "Cougar Conquer 2 Pro",
             descripcion:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            precio: 325.5,
-            categoria: "Categoria #4",
-            imagen: "https://thumb.pccomponentes.com/w-140-140/articles/35/350230/1523-pccom-bronze-intel-core-i5-10400-8gb-1tb-480ssd.jpg",
+                "Procesador: Ryzen 7 5700x Placa Madre: Steel b550 Memoria Ram: 32gb corsair Tarjeta de Video: gtx 1660 ti Disco m.2 1 tb",
+            precio: 10000,
+            categoria: "Categoria #1",
+            imagen: "./productos/5.jpg",
+        },
+        {
+            id: 6,
+            nombre: "Cougar Conquer 2 Elite",
+            descripcion:
+                "Procesador: Ryzen 9 5950x Placa Madre: Asus Rog x570 Memoria Ram: 64gb corsair Tarjeta de Video: RTX 3070 ti Disco m.2 1 tb",
+            precio: 22000,
+            categoria: "Categoria #1",
+            imagen: "./productos/6.jpg",
+        },
+        {
+            id: 7,
+            nombre: "Antec Titatium",
+            descripcion:
+                "Procesador: Ryzen 9 7950x Placa Madre: Steel x670 Memoria Ram: 128gb corsair Tarjeta de Video: RTX 3090 ti Disco m.2 2 tb",
+            precio: 72000,
+            categoria: "Categoria #1",
+            imagen: "./productos/7.jpg",
+        },
+        {
+            id: 8,
+            nombre: "Cougar Conquer Elite",
+            descripcion:
+                "Procesador: Ryzen 7 5700x Placa Madre: Asus Rog X570 Memoria Ram: 32gb corsair Tarjeta de Video: RTX 2080 ti Disco m.2 1 tb",
+            precio: 22000,
+            categoria: "Categoria #1",
+            imagen: "./productos/8.jpg",
+        },
+        {
+            id: 9,
+            nombre: "Deepcool Elite",
+            descripcion:
+                "Procesador: Ryzen 7 5700x Placa Madre: Asus Rog b550 Memoria Ram: 32gb corsair Tarjeta de Video: RTX 3070 Disco m.2 1 tb",
+            precio: 15500,
+            categoria: "Categoria #1",
+            imagen: "./productos/9.jpg",
+        },
+        {
+            id: 10,
+            nombre: "DeepCool Pro",
+            descripcion:
+                "Procesador: Ryzen 5 5600x Placa Madre: Asus Rog b550 Memoria Ram: 16gb corsair Tarjeta de Video: RTX 2060 Disco m.2 1 tb",
+            precio: 12000,
+            categoria: "Categoria #1",
+            imagen: "./productos/10.jpg",
         },
     ];
 
